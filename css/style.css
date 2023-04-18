@@ -1,0 +1,473 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/******************************************
+/* Header
+/*******************************************/
+
+
+
+
+header nav {
+  width: 100%;
+  height: 90px;
+  display: flex;
+}
+
+header nav section{
+  width: 100%;
+  display: flex;
+}
+
+#navL {
+  flex-basis: 22%;
+}
+
+#navM {
+  margin: 0 15%;
+  flex-basis: 60%;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 0 10%;
+}
+
+#navM a {
+  display: flex;
+  justify-content: space-around;
+}
+
+#navLogo {
+  width: 75%;
+  padding-top: 15px;
+  padding-left: 15px
+}
+
+
+
+#navR{
+  flex-basis: 20%;
+  display: flex;
+  align-items: center;
+}
+
+#navR a {
+  margin: 0 5%;
+}
+
+
+#navM a{
+  color: #4f4f4f;
+  text-decoration: none;
+  font-weight: bolder;
+  font-family: 'Lato', sans-serif;
+}
+
+#navR a {
+  color: #4f4f4f;
+}
+
+/******************************************
+/* Main photo
+/*******************************************/
+
+#backgroundMain{
+  height: 600px;
+  background: url(../img/andrea-leopardi-QVD3Xht9txA-unsplash.jpg) no-repeat center/cover;
+  animation: cycle-background 30s infinite;
+}
+
+@keyframes cycle-background {
+  0% {
+    background-image: url(../img/andrea-leopardi-QVD3Xht9txA-unsplash.jpg);
+  }
+  33% {
+    background-image: url(../img/isaac-wendland-7DCZgKyp8vw-unsplash.png);
+  }
+  66% {
+    background-image: url(../img/alessio-soggetti-GYr9A2CPMhY-unsplash.png);
+  }
+  100% {
+    background-image: url(../img/unsplash-c59hEeerAaI-unsplash.jpg);
+  }
+}
+
+
+
+/******************************************
+/* Main Container
+/*******************************************/
+
+
+#mainContainer {
+  display: flex;
+  height: 360px;
+  width: 67.5%;
+  margin: -90px auto;
+  background-image: url(../img/backgroundTan.png);
+}
+
+
+#mainContainer img {
+  align-items: center;
+  padding: 20px 20px;
+  z-index: 3;
+}
+
+#mainDescription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 30px;
+  font-size: 30px;
+  padding: 0 20px;
+
+}
+
+#mainDescription h2 {
+  margin-bottom: 0;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 100;
+  font-size: 35px;
+}
+
+#mainDescription h2 span {
+  font-size: 40px;
+}
+
+#mainDescription p {
+  font-weight: lighter;
+  font-size: 15px;
+  margin-top: 25px;
+  line-height: 150%;
+}
+#mainDescription button {
+  margin: auto;
+  width: 20%;
+  font-family: 'Lato', sans-serif;
+  font-size: 11px;
+}
+
+
+/******************************************
+/* Main Videos
+/*******************************************/
+#videos {
+  display: flex;
+  height: 550px;
+  margin-top: 80px;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+}
+
+#videos section {
+  width: 20%;
+  height: 50%;
+  border: 1px solid black;
+}
+
+/******************************************
+/* Main Page Programs
+/*******************************************/
+
+#programContainer {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  background-image: url(../img/purple-backgorun.jpg);
+}
+
+#programHeader {
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+}
+
+
+#choiceHeader {
+  display: flex;
+  justify-content: center;
+}
+
+#progList {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: 0 auto
+}
+
+#progList h5 {
+  font-size: 200%;
+  margin-bottom: .5em;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+#progList section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 40%;
+  height: 300px;
+}
+
+#progList section p{
+  flex-basis: 40%;
+}
+
+#buttonPrivate{
+  background-color: none;
+  color: black;
+  font-family: Verdana;
+  font-size: 19px;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  padding: 10px 11px;
+  border: 1px solid #FF782B;
+  display: inline-block;
+ }
+ #buttonPrivate:hover{
+  border: 1px solid black;
+ }
+#buttonPrivate{
+  transform: scale(0.95);
+ }
+
+ #buttonGroup{
+  background-color: none;
+  color: black;
+  font-family: Verdana;
+  font-size: 19px;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  padding: 10px 11px;
+  border: 1px solid #FF782B;
+  display: inline-block;
+ }
+ #buttonGroup:hover{
+  border: 1px solid black;
+ }
+#buttonGroup{
+  transform: scale(0.95);
+ }
+
+/******************************************
+/* Main Page - Contact container
+/*******************************************/
+
+#contentContactContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#proglist h5 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: lighter;
+  font-size:1.
+}
+
+
+
+#contactContainer {
+  height: 700px;
+  display: flex;
+  margin: 70px 0 ;
+  margin-bottom: 130px;
+}
+
+#contactContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ padding: 0 5%;
+
+ }
+
+ #contactContent > h2, h3, p {
+  text-align: center;
+
+ }
+
+ #contactContent h2{
+  font-size: 2.5em;
+ }
+
+#programHeader h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3em;
+}
+#programHeader h3 {
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+#letsChat{
+  background-color: none;
+  color: black;
+  font-family: Verdana;
+  font-size: 19px;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  padding: 10px 11px;
+  border: 1px solid #FF782B;
+  display: inline-block;
+ }
+ #letsChat:hover{
+  border: 1px solid black;
+ }
+#letsChat{
+  transform: scale(0.95);
+ }
+
+/******************************************
+/* Search Icon
+/*******************************************/
+
+.search-icon {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+.search-icon i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.search-bar {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #f1f1f1;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+
+.search-bar form {
+  display: flex;
+}
+
+.search-bar input {
+  flex: 1;
+  border: none;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.search-bar button {
+  border: none;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+/******************************************
+/* Videos
+/*******************************************/
+
+#videosMain {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 200px;
+}
+
+.videos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.video {
+  width: 50%;
+  padding: 0 10px;
+}
+
+/******************************************
+/* Footer
+/*******************************************/
+
+
+footer, #footerIcons {
+  display: flex;
+
+  margin: 0 auto;
+  margin-bottom:100px ;
+  list-style-type: none;
+}
+
+footer {
+  justify-content: center;
+
+}
+
+#footL, #footM, #footR {
+  margin: 0 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+#footM > * {
+  margin: 2% 0;
+}
+
+#footM > h3,div {
+  display: flex;
+  justify-content: center;
+}
+
+#footL, #footR {
+  justify-content: center;
+}
+
+#footL a, #footR a {
+  margin: 7% auto;
+  text-decoration: none;
+}
+
+#footerLogo {
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+}
+
+#form-group > label, input, button {
+  margin: 0 3%
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
