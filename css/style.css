@@ -83,16 +83,18 @@ header nav section{
 
 @keyframes cycle-background {
   0% {
-    background-image: url(../img/andrea-leopardi-QVD3Xht9txA-unsplash.jpg);
+    background-image: url(../img/alessio-soggetti-GYr9A2CPMhY-unsplash.png);
+    
   }
   33% {
-    background-image: url(../img/isaac-wendland-7DCZgKyp8vw-unsplash.png);
+    background-image: url(../img/unsplash-c59hEeerAaI-unsplash.jpg);
   }
   66% {
-    background-image: url(../img/alessio-soggetti-GYr9A2CPMhY-unsplash.png);
+    background-image: url(../img/andrea-leopardi-QVD3Xht9txA-unsplash.jpg);
   }
   100% {
-    background-image: url(../img/unsplash-c59hEeerAaI-unsplash.jpg);
+   
+    background-image: url(../img/isaac-wendland-7DCZgKyp8vw-unsplash.png);
   }
 }
 
